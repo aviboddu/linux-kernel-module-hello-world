@@ -25,4 +25,4 @@ Checking output:
 
 _Most of this code was learnt from [The Linux Kernel Module Programming Guide](https://tldp.org/LDP/lkmpg/2.6/html/index.html)._
 
-The main change from this guide was due to the kernel __requiring__ license documentation before insertion. Additionally, it took some time to understand where exactly text would be printed and how to check this.
+The main change from this guide was due to the kernel __requiring__ license documentation before insertion. Additionally, it took some time to understand where exactly text would be printed and how to check this. Another confusion was how the printk function worked, since it required both arguments without a separating comma, which was unintuitive.
