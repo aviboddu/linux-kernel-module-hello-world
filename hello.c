@@ -10,7 +10,6 @@ MODULE_DESCRIPTION("Prints Hello World and Goodbye");
 
 int init_module(void)
 {
-        // Since we want to print to the console, we must have a log level less than 4, hence the use of KERN_ERR
         printk(KERN_INFO "Hello World\n");
         return 0;
 }
