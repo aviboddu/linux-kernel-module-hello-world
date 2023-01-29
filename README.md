@@ -22,3 +22,5 @@ Removal:
 Checking output:
 
 `sudo dmesg`
+
+_Most of this code was learnt from [The Linux Kernel Module Programming Guide](https://tldp.org/LDP/lkmpg/2.6/html/index.html)._
