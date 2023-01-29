@@ -1,5 +1,5 @@
 #include <linux/module.h>       /* Needed by all modules */
-#include <linux/kernel.h>       /* Needed for KERN_ERR */
+#include <linux/kernel.h>       /* Needed for KERN_INFO */
 #include <linux/init.h>         /* Needed for macros */
 
 MODULE_LICENSE("GPL");
